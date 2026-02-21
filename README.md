@@ -2,11 +2,11 @@
 
 An enterprise-grade, production-ready API automation framework built using Java 17, Maven, RestAssured, and TestNG.
 
-## 🚀 Overview
+##  Overview
 
 This framework is designed for high scalability and robustness in testing RESTful APIs. It includes modular components for core logic, service layers, security, and utility functions.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Language**: Java 17
 - **Build Tool**: Maven
@@ -16,7 +16,7 @@ This framework is designed for high scalability and robustness in testing RESTfu
 - **Logging**: Log4j2
 - **Database**: PostgreSQL (Optional result persistence)
 
-## 🏗️ Key Features
+##  Key Features
 
 - **Multi-Environment Support**: Easily switch between dev, qa, stage, and prod via config properties.
 - **Auto-Token Refresh**: Dynamic handling of OAuth2 tokens to ensure uninterrupted test execution.
@@ -26,11 +26,12 @@ This framework is designed for high scalability and robustness in testing RESTfu
 - **Postman Support**: Ability to execute Postman collection JSON files via CLI.
 - **Parallel Execution**: Configured for high-performance concurrent test runs.
 
-## 📖 Documentation
+##  Documentation
 
-For detailed class definitions and architecture details, please refer to [doc.md](doc.md).
+- [doc.md](doc.md) - Technical Class Definitions
+- [AUTH_GUIDE.md](AUTH_GUIDE.md) - Beginner's Guide to Auth & Headers
 
-## 🏃 Running the Project
+##  Running the Project
 
 ### Execute via Maven
 ```bash
